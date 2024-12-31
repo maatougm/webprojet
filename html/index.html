@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperance Sportive de Tunis</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <nav>
+                <button class="menu-toggle">Menu</button>
+                <ul class="nav-bar">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#matches">Matches</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="/img/logo.png" alt="Esperance Sportive de Tunis Logo">
+            </div>
+            <h1 class="title">Esperance Sportive de Tunis</h1>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="carousel">
+            <div class="slides">
+                <img src="/img/3542376f62e103e8994fcbe981d55018.png" alt="Photo 1">
+                <img src="/img/download.jpeg" alt="Photo 2">
+                <img src="/img/images.jpeg" alt="Photo 3">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <section class="contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@esperance.tn</p>
+            <p>Phone: +216 71 123 456</p>
+            <p>Address: Tunis, Tunisia</p>
+        </section>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navBar = document.querySelector('.nav-bar');
+
+        menuToggle.addEventListener('click', () => {
+            navBar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
