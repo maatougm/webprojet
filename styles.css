@@ -25,14 +25,15 @@ header {
 }
 
 .logo img {
-    max-height: 60px;
+    max-height: 90px;
     width: auto;
 }
 
 .title {
+    
     flex: 1;
     text-align: right;
-    font-size: 20px;
+    font-size:35px;
     color: #FF4500;
 }
 
@@ -74,7 +75,7 @@ nav {
     .menu-toggle {
         display: block;
     }
-
+    .title {display: none;}
     .nav-bar {
         display: none;
         flex-direction: column;
@@ -108,56 +109,23 @@ nav {
     
 }
 
-.carousel {
-    width: 100%;
-    overflow: hidden;
-    margin: 20px 0;
-    position: relative;
-}
 
-.slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 500%; /* 5 images */
-}
 
-.slides img {
-    width: 100%;
-    max-height: 500px;
-}
 
-.carousel .prev, .carousel .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1000;
-}
 
-.carousel .prev {
-    left: 10px;
-}
 
-.carousel .next {
-    right: 10px;
-}
-
-footer {
+.footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 
-footer .contact h3 {
+.footer .contact h3 {
     margin: 0 0 10px;
 }
 
-footer .contact p {
+.footer .contact p {
     margin: 5px 0;
 }
 
@@ -177,9 +145,7 @@ footer .contact p {
         margin: 10px 0;
     }
 
-    .slides img {
-        max-height: 300px;
-    }
+    
 
     footer {
         padding: 15px;
@@ -195,7 +161,107 @@ footer .contact p {
         font-size: 14px;
     }
 
-    .carousel .prev, .carousel .next {
-        padding: 5px;
-    }
+  
 }
+ /* landing page carouseel */
+ .carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+.carousel-item img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+/* sponsor carouseel */
+        .sponsor-track-container { /* New container for full-width */
+            width: 100%;
+           
+        }
+
+        .sponsor-track {
+            display: flex;
+            animation: sponsor-slide 20s linear infinite; /* Adjust speed */
+            width: fit-content; /* Important: Fit content */
+        }
+
+        .sponsor-element {
+            width: 200px; /* Adjust sponsor width */
+            height: 90px; /* Adjust sponsor height */
+            margin: 0 30px; /* Space between sponsors */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            overflow: hidden;
+            flex-shrink: 0; /* Prevent shrinking */
+        }
+
+        .sponsor-element img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        @keyframes sponsor-slide {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(-50%)); } /* Smooth loop */
+        } 
