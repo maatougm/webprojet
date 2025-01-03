@@ -1,17 +1,18 @@
+
 // Honours Data (Replace with actual data and image URLs)
 const honoursData = [
     // Football
     {
         category: "CAF Champions League",
         years: [2019, 2018, 2011, 1994],
-        img: "placeholder_cafcl.jpg",
+        img: "./img/caf-cl-logo.webp",
         type: "football",
         sport: "football"
     },
     {
         category: "Arab Club Champions Cup",
         years: [2017, 2009, 1993],
-        img: "placeholder_arab.jpg",
+        img: "./img/logo-Uafa.png",
         type: "football",
         sport: "football"
     },
@@ -235,39 +236,24 @@ sportFilterButtons.forEach(button => {
 populateYearSelects();
 displayHonours(honoursData); // Show all initially
 filterBySport("football");
-// ... Previous JavaScript ...
 
-document.addEventListener('DOMContentLoaded', function() {
-    const currentYearSpan = document.getElementById("current-year");
-    if (currentYearSpan) {
-        currentYearSpan.textContent = new Date().getFullYear();
-    }
 
-    const sponsorsSlider = document.querySelector('.sponsors-slider');
-    if (sponsorsSlider) {
-        let scrollAmount = 0;
-        const scrollStep = 2; // Adjust for faster/slower scroll
-        const scrollInterval = 20; // Adjust for smoother/jerkier scroll
 
-        setInterval(() => {
-            scrollAmount += scrollStep;
-            if (scrollAmount >= sponsorsSlider.scrollWidth / 2) {
-                scrollAmount = 0;
-            }
-            sponsorsSlider.scrollTo({
-                left: scrollAmount,
-                behavior: 'smooth'
-            });
-        }, scrollInterval);
-    }
+// Event Listeners
+showAllButton.addEventListener("click", () => {
+    displayHonours(honoursData);
+    sportFilterButtons.forEach(button => button.classList.remove("active"));
+    showAllButton.classList.add("active");
 });
-// ... Previous JavaScript (for footer, honours, etc.) ...
 
-// Hamburger Menu Toggle
-const hamburger = document.querySelector(".hamburger");
-const mainNav = document.querySelector(".main-nav");
+filterYearButton.addEventListener("click", filterByYear);
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  mainNav.classList.toggle("show");
+sportFilterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        sportFilterButtons.forEach(b => b.classList.remove("active"));
+        showAllButton.classList.remove("active");
+        button.classList.add("active");
+        const sport = button.dataset.sport;
+        filterBySport(sport);
+    });
 });

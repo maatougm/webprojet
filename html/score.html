@@ -3,259 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esperance Sportive de Tunis</title>
-    <link rel="stylesheet" href="/styles.css">
-    <style>
-        .scoreh1{
-            text-align: center;
-        }
-        main {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .score-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            padding: 20px;
-            width: 100%;
-            max-width: 1200px;
-        }
-        .card {
-            background-color: #ffffff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-        .card:hover {
-            transform: scale(1.05);
-        }
-        .match {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-        .team img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        .score {
-            font-size: 2em;
-            font-weight: bold;
-        }
-        .match-info {
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
+    <title>Espérance Sportive de Tunis - Scores</title>
+    <link rel="stylesheet" href="/css/score.css">
+    <link rel="stylesheet" href="/css/hearderfooter.css">
+    
+  
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <nav>
-                <button class="menu-toggle">Menu</button>
-                <ul class="nav-bar">
-                    <li><a href="/html/index.html">accueil</a></li>
-                    <li><a href="/html/form.html">inscription</a></li>
-                    <li><a href="/html/palyers.html">players</a></li>
-                    <li><a href="https://taraji-store.com/">store</a></li>
-                    <li><a href="/html/score.html">resultats</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="logo">
-                <img src="/img/logo.png" alt="Esperance Sportive de Tunis Logo">
+    <header class="est-header">
+        <div class="est-container">
+            <div class="est-logo-container">
+                <a href="/html/index.html">
+                    <img src="/img/logo.png" alt="Espérance Sportive de Tunis Logo" class="est-logo">
+                </a>
             </div>
-            <h1 class="title">Esperance Sportive de Tunis</h1>
+            <nav class="est-main-nav">
+              <ul class="est-nav-list">
+                <li class="est-nav-item"><a href="/html/palyers.html" class="est-nav-link">players</a></li>
+                <li class="est-nav-item"><a href="/html/honors.html" class="est-nav-link">Honours</a></li>
+                <li class="est-nav-item"><a href="/html/form.html" class="est-nav-link">join club</a></li>
+                <li class="est-nav-item"><a href="/html/score.html" class="est-nav-link">score</a></li>
+                <li class="est-nav-item"><a href="https://taraji-store.com/" class="est-nav-link">Shop</a></li>
+            </ul>
+            </nav>
+            <button class="est-hamburger" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
-
     <main>
-        <!-- football scores -->
-        <h1 class="scoreh1">Football Scores</h1>
-        <div class="score-cards">
-            <div class="card">
-                <div class="match">
-                    <img src="eam_a_logo.png" alt="Team A Logo">
-                    <div class="score">3 - 1</div>
-                    <img src="team_b_logo.png" alt="Team B Logo">
-                </div>
-                <div class="match-info">12/30/2024</div>
-            </div>
-            <div class="card">
-                <div class="match">
-                    <img src="team_c_logo.png" alt="Team C Logo">
-                    <div class="score">2 - 2</div>
-                    <img src="team_d_logo.png" alt="Team D Logo">
-                </div>
-                <div class="match-info">12/29/2024</div>
-            </div>
-            <div class="card">
-                <div class="match">
-                    <img src="team_e_logo.png" alt="Team E Logo">
-                    <div class="score">0 - 4</div>
-                    <img src="team_f_logo.png" alt="Team F Logo">
-                </div>
-                <div class="match-info">12/28/2024</div>
-            </div>
-            <div class="card">
-                <div class="match">
-                    <img src="team_g_logo.png" alt="Team G Logo">
-                    <div class="score">1 - 3</div>
-                    <img src="team_h_logo.png" alt="Team H Logo">
-                </div>
-                <div class="match-info">12/27/2024</div>
-            </div>
-            <div class="card">
-                <div class="match">
-                    <img src="team_i_logo.png" alt="Team I Logo">
-                    <div class="score">4 - 0</div>
-                    <img src="team_j_logo.png" alt="Team J Logo">
-                </div>
-                <div class="match-info">12/26/2024</div>
-            </div>
-            <div class="card">
-                <div class="match">
-                    <img src="team_k_logo.png" alt="Team K Logo">
-                    <div class="score">2 - 1</div>
-                    <img src="team_l_logo.png" alt="Team L Logo">
-                </div>
-                <div class="match-info">12/25/2024</div>
-            </div>
-        </div>
-    <!-- score handball -->
-    <h1 class="scoreh1">handball Scores</h1>
-    <div class="score-cards">
-        <div class="card">
-            <div class="match">
-                <img src="team_a_logo.png" alt="Team A Logo">
-                <div class="score">3 - 1</div>
-                <img src="team_b_logo.png" alt="Team B Logo">
-            </div>
-            <div class="match-info">12/30/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_c_logo.png" alt="Team C Logo">
-                <div class="score">2 - 2</div>
-                <img src="team_d_logo.png" alt="Team D Logo">
-            </div>
-            <div class="match-info">12/29/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_e_logo.png" alt="Team E Logo">
-                <div class="score">0 - 4</div>
-                <img src="team_f_logo.png" alt="Team F Logo">
-            </div>
-            <div class="match-info">12/28/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_g_logo.png" alt="Team G Logo">
-                <div class="score">1 - 3</div>
-                <img src="team_h_logo.png" alt="Team H Logo">
-            </div>
-            <div class="match-info">12/27/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_i_logo.png" alt="Team I Logo">
-                <div class="score">4 - 0</div>
-                <img src="team_j_logo.png" alt="Team J Logo">
-            </div>
-            <div class="match-info">12/26/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_k_logo.png" alt="Team K Logo">
-                <div class="score">2 - 1</div>
-                <img src="team_l_logo.png" alt="Team L Logo">
-            </div>
-            <div class="match-info">12/25/2024</div>
-        </div>
-    </div>
-    <!-- score volly -->
-    <h1 class="scoreh1">vollyball Scores</h1>
-    <div class="score-cards">
-        <div class="card">
-            <div class="match">
-                <img src="team_a_logo.png" alt="Team A Logo">
-                <div class="score">3 - 1</div>
-                <img src="team_b_logo.png" alt="Team B Logo">
-            </div>
-            <div class="match-info">12/30/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_c_logo.png" alt="Team C Logo">
-                <div class="score">2 - 2</div>
-                <img src="team_d_logo.png" alt="Team D Logo">
-            </div>
-            <div class="match-info">12/29/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_e_logo.png" alt="Team E Logo">
-                <div class="score">0 - 4</div>
-                <img src="team_f_logo.png" alt="Team F Logo">
-            </div>
-            <div class="match-info">12/28/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_g_logo.png" alt="Team G Logo">
-                <div class="score">1 - 3</div>
-                <img src="team_h_logo.png" alt="Team H Logo">
-            </div>
-            <div class="match-info">12/27/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_i_logo.png" alt="Team I Logo">
-                <div class="score">4 - 0</div>
-                <img src="team_j_logo.png" alt="Team J Logo">
-            </div>
-            <div class="match-info">12/26/2024</div>
-        </div>
-        <div class="card">
-            <div class="match">
-                <img src="team_k_logo.png" alt="Team K Logo">
-                <div class="score">2 - 1</div>
-                <img src="team_l_logo.png" alt="Team L Logo">
-            </div>
-            <div class="match-info">12/25/2024</div>
-        </div>
-    </div>
-    </main>
+    <div class="score-container">
+        <h1 class="score-page-title">Espérance Sportive de Tunis - Scores</h1>
+        <p class="score-subtitle">Latest Match Results</p>
 
+        <div class="score-filter-container">
+            <div class="score-sport-filter">
+                <button class="score-filter-button active" data-sport="all">All Sports</button>
+                <button class="score-filter-button" data-sport="football">Football</button>
+                <button class="score-filter-button" data-sport="handball">Handball</button>
+                <button class="score-filter-button" data-sport="volleyball">Volleyball</button>
+            </div>
+        </div>
+
+        <section class="score-results" id="score-results-list">
+            </section>
+    </div>
+</main>
+<script src="/JS/nav.js"></script> 
     <footer>
-        <section class="contact">
-            <h3>Contact Us</h3>
-            <p>Email: info@esperance.tn</p>
-            <p>Phone: +216 71 123 456</p>
-            <p>Address: Tunis, Tunisia</p>
-        </section>
-    </footer>
+        <div class="footer-top">
+        <div class="container">
+            
+                
 
-    <script>
-        const menuToggle = document.querySelector('.menu-toggle');
-        const navBar = document.querySelector('.nav-bar');
-
-        menuToggle.addEventListener('click', () => {
-            navBar.classList.toggle('active');
-        });
-    </script>
+                <div class="est-social-links">
+                    <a href="https://www.facebook.com/EsperanceSportivedeTunis"  target="_blank" class="est-social-link" aria-label="Facebook">
+                        <img src="/img/facebook.png" alt="Facebook Icon" class="est-social-icon">
+                    </a>
+                    <a href="https://x.com/ESTunis1919" target="_blank" class="est-social-link" aria-label="Twitter">
+                        <img src="/img/twitter.png" alt="x Icon" class="est-social-icon">
+                    </a>
+                    <a href="https://www.instagram.com/estofficiel" target="_blank"  class="est-social-link" aria-label="Instagram">
+                        <img src="/img/instagram.png" alt="Instagram Icon" class="est-social-icon">
+                    </a>
+                    <a href="https://youtube.com/@esperancesportivedetunis9155" target="_blank" class="est-social-link" aria-label="YouTube">
+                        <img src="/img/youtube.png" alt="YouTube Icon" class="est-social-icon">
+                    </a>
+                </div>
+    
+          <div class="footer-widget sponsors-widget">
+            <h4 class="sponsor-title">Our Sponsors</h4>
+            <div class="sponsors-bar">
+              <div class="sponsor">
+                <a href="https://www.tunisietelecom.tn/" target="_blank" aria-label="Sponsor 1">
+                  <img src="/img/logo.svg" alt="Tunisie Telecom" />
+                </a>
+              </div>
+              <div class="sponsor">
+                <a href="https://www.delice.tn" target="_blank" aria-label="Sponsor 2">
+                  <img src="/img/deliceholding.png" alt="delice holding" />
+                </a>
+              </div>
+              <div class="sponsor">
+                <a href="https://www.firstdeliverygroup.com/" target="_blank" aria-label="Sponsor 3">
+                  <img src="/img/first.png" alt="firstdelivery" />
+                </a>
+              </div>
+              <div class="sponsor">
+                <a href="https://www.tarajimobile.com.tn/" target="_blank" aria-label="Sponsor 4">
+                  <img src="/img/logoTarajiMobile.png" alt="Taraji Mobile" />
+                </a>
+              </div>
+              <div class="sponsor">
+                <a href="https://taraji-store.com/" target="_blank" aria-label="Sponsor 5">
+                  <img src="/img/taraji store.png" alt="Taraji Store" />
+                </a>
+              </div>
+              
+              </div>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12776.08744758923!2d10.19195904180809!3d36.8179960405198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34622b02f773%3A0x3b1f3f6db2ec6125!2sHassen%20Belkhodja%20park!5e0!3m2!1sen!2stn!4v1735913613611!5m2!1sen!2stn"                 width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2025 Espérance Sportive de Tunis.
+          All rights reserved.
+          by <br> Moudhafer Maatoug | Fawzy Atty | Safouaine Zouaoui
+        </p>
+        <p> </p>
+      </div>
+    </div>
+  </footer>
+    
+  <script src="/JS/score.js"></script>
+    
 </body>
 </html>

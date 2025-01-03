@@ -1,0 +1,128 @@
+/* ... Previous CSS for header, footer, etc. ... */
+
+/* Hero Section */
+.est-hero {
+    margin-bottom: 40px;
+}
+
+.est-carousel {
+    position: relative;
+}
+
+.est-carousel-slide {
+    display: none;
+}
+
+.est-carousel-slide.active {
+    display: block;
+}
+
+.est-carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.est-carousel-prev,
+.est-carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.est-carousel-prev:hover,
+.est-carousel-next:hover {
+    opacity: 1;
+}
+
+.est-carousel-prev {
+    left: 10px;
+}
+
+.est-carousel-next {
+    right: 10px;
+}
+
+/* Shortcuts Section */
+.est-shortcuts {
+    margin-bottom: 40px;
+}
+
+.est-section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #d50000;
+    margin-bottom: 30px;
+}
+
+.est-shortcuts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.est-shortcut-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #202124;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.est-shortcut-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.est-shortcut-icon {
+    font-size: 3em;
+    color: #d50000;
+    margin-bottom: 15px;
+}
+
+.est-shortcut-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.est-shortcut-description {
+    font-size: 1em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+
+    .est-carousel-prev,
+    .est-carousel-next {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+
+    .est-shortcuts-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .est-shortcut-icon {
+        font-size: 2.5em;
+    }
+
+    .est-shortcut-title {
+        font-size: 1.2em;
+    }
+}

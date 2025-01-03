@@ -1,0 +1,174 @@
+body {
+    font-family: "Roboto", Arial, sans-serif; /* Using Roboto font like Bayern */
+    background-color: #f4f4f4;
+    color: #202124;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {width: 100%;
+    max-width: 100%; /* Adjust as needed */
+    margin: 0 auto;}
+
+
+.trophies-containers{
+    width: 100%;
+    max-width: 1100px; /* Adjust as needed */
+    margin: 0 auto;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.subtitle {
+    font-size: 1.3em;
+    color: #5f6368;
+}
+
+.intro {
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.filter-button, #filter-year-button {
+    background-color: #d50000;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.filter-button:hover, #filter-year-button:hover {
+    background-color: #b71c1c;
+}
+
+.year-filter {
+    display: flex;
+    align-items: center;
+}
+
+.year-filter label {
+    margin-right: 8px;
+    color: #5f6368;
+}
+
+.year-filter select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.honours {
+    margin-bottom: 40px;
+}
+
+.trophy-category {
+    display: flex; /* Use flex for horizontal layout */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+
+.trophy-img {
+    width: 150px; /* Adjust as needed */
+    margin-right: 30px;
+}
+
+.trophy-img img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below image */
+}
+
+.trophy-details {
+    flex-grow: 1; /* Allow details to take remaining space */
+}
+
+.trophy-details h3 {
+    color: #d50000;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.trophy-details ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox to make years horizontal */
+    flex-wrap: wrap; /* Allow wrapping to multiple lines */
+}
+
+.trophy-details li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-right: 10px; /* Add spacing between years */
+}
+
+.trophy-details li span {
+    font-weight: 600;
+}
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.sport-filter {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sport-filter .filter-button {
+    margin-right: 10px;
+}
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .filter-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .year-filter {
+        margin-top: 15px;
+    }
+
+    .trophy-category {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align to the start */
+    }
+
+    .trophy-img {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+

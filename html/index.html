@@ -3,99 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esperance Sportive de Tunis</title>
-    <link rel="stylesheet" href="/styles.css">
+    <title>Espérance Sportive de Tunis</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/hearderfooter.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <nav>
-                <button class="menu-toggle">Menu</button>
-                <ul class="nav-bar">
-                    <li><a href="/html/index.html">accueil</a></li>
-                    <li><a href="/html/form.html">inscription</a></li>
-                    <li><a href="/html/palyers.html">players</a></li>
-                    <li><a href="https://taraji-store.com/">store</a></li>
-                    <li><a href="/html/score.html">resultats</a></li>
-                    <li><a href="#contact">history</a></li>
-                </ul>
-            </nav>
-            <div class="logo">
-                <img src="/img/logo.png" alt="Esperance Sportive de Tunis Logo">
-            </div>
-            <h1 class="title">Esperance Sportive de Tunis</h1>
+  <header class="est-header">
+    <div class="est-container">
+        <div class="est-logo-container">
+            <a href="/html/index.html">
+                <img src="/img/logo.png" alt="Espérance Sportive de Tunis Logo" class="est-logo">
+            </a>
         </div>
-    </header>
-
-
-    <section>
-        <div class="carousel">
-            <div class="carousel-inner">
-                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-                <div class="carousel-item">
-                    <img src="/img/hand.jpg">
-                </div>
-                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-                <div class="carousel-item">
-                    <img src="/img/regi.jpg">
-                </div>
-                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-                <div class="carousel-item">
-                    <img src="/img/volly.jpg">
-                </div>
-                
-                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-                <label for="carousel-2" class="carousel-control next control-1">›</label>
-                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-                <label for="carousel-3" class="carousel-control next control-2">›</label>
-                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-                <label for="carousel-1" class="carousel-control next control-3">›</label>
-                
-            </div>
-        </div>
-    </section>
-    <section>
-    <div class="sponsor-track-container"> <div class="sponsor-track">
-        <div class="sponsor-element"><img src="/img/delicedanon.jpeg" alt="Image 1"></div>
-        <div class="sponsor-element"><img src="/img/deliceholding.png" alt="Image 2"></div>
-        <div class="sponsor-element"><img src="/img/first.png" alt="Image 3"></div>
-        <div class="sponsor-element"><img src="/img/tt.jpeg" alt="Image 4"></div>
-        <div class="sponsor-element"><img src="/img/delicedanon.jpeg" alt="Image 1"></div>
-        <div class="sponsor-element"><img src="/img/deliceholding.png" alt="Image 2"></div>
-        <div class="sponsor-element"><img src="/img/first.png" alt="Image 3"></div>
-        <div class="sponsor-element"><img src="/img/tt.jpeg" alt="Image 4"></div>
-        <div class="sponsor-element"><img src="/img/delicedanon.jpeg" alt="Image 1"></div>
-        <div class="sponsor-element"><img src="/img/deliceholding.png" alt="Image 2"></div>
-        <div class="sponsor-element"><img src="/img/first.png" alt="Image 3"></div>
-        <div class="sponsor-element"><img src="/img/tt.jpeg" alt="Image 4"></div>
-        <div class="sponsor-element"><img src="/img/delicedanon.jpeg" alt="Image 1"></div>
-        <div class="sponsor-element"><img src="/img/deliceholding.png" alt="Image 2"></div>
-        <div class="sponsor-element"><img src="/img/first.png" alt="Image 3"></div>
-        <div class="sponsor-element"><img src="/img/tt.jpeg" alt="Image 4"></div>
-        <div class="sponsor-element"><img src="/img/delicedanon.jpeg" alt="Image 1"></div>
-        <div class="sponsor-element"><img src="/img/deliceholding.png" alt="Image 2"></div>
-        <div class="sponsor-element"><img src="/img/first.png" alt="Image 3"></div>
-        <div class="sponsor-element"><img src="/img/tt.jpeg" alt="Image 4"></div>
+        <nav class="est-main-nav">
+          <ul class="est-nav-list">
+            <li class="est-nav-item"><a href="/html/palyers.html" class="est-nav-link">players</a></li>
+            <li class="est-nav-item"><a href="/html/honors.html" class="est-nav-link">Honours</a></li>
+            <li class="est-nav-item"><a href="/html/form.html" class="est-nav-link">join club</a></li>
+            <li class="est-nav-item"><a href="/html/score.html" class="est-nav-link">score</a></li>
+            <li class="est-nav-item"><a href="https://taraji-store.com/" class="est-nav-link">Shop</a></li>
+        </ul>
+        </nav>
+        <button class="est-hamburger" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </div>
-</div>
-</section>
-    
-    <footer>
-        <section class="contact">
-            <h3>Contact Us</h3>
-            <p>Email: info@esperance.tn</p>
-            <p>Phone: +216 71 123 456</p>
-            <p>Address: Tunis, Tunisia</p>
+</header>
+
+    <main>
+        <section class="est-hero">
+            <div class="est-carousel">
+                <div class="est-carousel-slide">
+                    <img src="/img/hand.jpg" alt="equioe hand">
+                </div>
+                <div class="est-carousel-slide">
+                    <img src="/img/regi.jpg" alt="equipe foot">
+                </div>
+                <div class="est-carousel-slide">
+                    <img src="/img/volly.jpg" alt="volly">
+                </div>
+                <button class="est-carousel-prev" aria-label="Previous Slide">&lt;</button>
+                <button class="est-carousel-next" aria-label="Next Slide">&gt;</button>
+            </div>
         </section>
-    </footer>
 
-    <script>
-        const menuToggle = document.querySelector('.menu-toggle');
-        const navBar = document.querySelector('.nav-bar');
+        <section class="est-shortcuts">
+            <div class="est-container">
+                <h2 class="est-section-title">Quick Links</h2>
+                <div class="est-shortcuts-grid">
+                    <a href="index.html" class="est-shortcut-card">
+                        <i class="fas fa-trophy est-shortcut-icon"></i>
+                        <h3 class="est-shortcut-title">Honours</h3>
+                        <p class="est-shortcut-description">Explore the glorious history and achievements of the club.</p>
+                    </a>
+                    <a href="players.html" class="est-shortcut-card">
+                        <i class="fas fa-users est-shortcut-icon"></i>
+                        <h3 class="est-shortcut-title">Players</h3>
+                        <p class="est-shortcut-description">Meet the stars of Espérance across all sports.</p>
+                    </a>
+                    <a href="scores.html" class="est-shortcut-card">
+                        <i class="fas fa-futbol est-shortcut-icon"></i>
+                        <h3 class="est-shortcut-title">Scores</h3>
+                        <p class="est-shortcut-description">Get the latest match results and updates.</p>
+                    </a>
+                    <a href="#" class="est-shortcut-card">
+                        <i class="fas fa-newspaper est-shortcut-icon"></i>
+                        <h3 class="est-shortcut-title">News</h3>
+                        <p class="est-shortcut-description">Stay informed about the latest club news.</p>
+                    </a>
+                    <a href="#" class="est-shortcut-card">
+                        <i class="fas fa-store est-shortcut-icon"></i>
+                        <h3 class="est-shortcut-title">Shop</h3>
+                        <p class="est-shortcut-description">Get your official Espérance merchandise.</p>
+                    </a>
+                    <a href="#" class="est-shortcut-card">
+                        <i class="fas fa-calendar-alt est-shortcut-icon"></i>
+                        <h3 class="est-shortcut-title">Fixtures</h3>
+                        <p class="est-shortcut-description">View upcoming matches and events.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        menuToggle.addEventListener('click', () => {
-            navBar.classList.toggle('active');
-        });
-    </script>
+    <script src="/JS/nav.js"></script>     
+    <footer>
+        <div class="footer-top">
+        <div class="container">
+            
+                
+
+                <div class="est-social-links">
+                    <a href="https://www.facebook.com/EsperanceSportivedeTunis"  target="_blank" class="est-social-link" aria-label="Facebook">
+                        <img src="/img/facebook.png" alt="Facebook Icon" class="est-social-icon">
+                    </a>
+                    <a href="https://x.com/ESTunis1919" target="_blank" class="est-social-link" aria-label="Twitter">
+                        <img src="/img/twitter.png" alt="x Icon" class="est-social-icon">
+                    </a>
+                    <a href="https://www.instagram.com/estofficiel" target="_blank"  class="est-social-link" aria-label="Instagram">
+                        <img src="/img/instagram.png" alt="Instagram Icon" class="est-social-icon">
+                    </a>
+                    <a href="https://youtube.com/@esperancesportivedetunis9155" target="_blank" class="est-social-link" aria-label="YouTube">
+                        <img src="/img/youtube.png" alt="YouTube Icon" class="est-social-icon">
+                    </a>
+                </div>
+    
+          <div class="footer-widget sponsors-widget">
+            <h4 class="sponsor-title">Our Sponsors</h4>
+            <div class="sponsors-bar">
+              <div class="sponsor">
+                <a href="https://www.tunisietelecom.tn/" target="_blank" aria-label="Sponsor 1">
+                  <img src="/img/logo.svg" alt="Tunisie Telecom" />
+                </a>
+              </div>
+              <div class="sponsor">
+                <a href="https://www.delice.tn" target="_blank" aria-label="Sponsor 2">
+                  <img src="/img/deliceholding.png" alt="delice holding" />
+                </a>
+              </div>
+              <div class="sponsor">
+                <a href="https://www.firstdeliverygroup.com/" target="_blank" aria-label="Sponsor 3">
+                  <img src="/img/first.png" alt="firstdelivery" />
+                </a>
+              </div>
+              <div class="sponsor">
+                <a href="https://www.tarajimobile.com.tn/" target="_blank" aria-label="Sponsor 4">
+                  <img src="/img/logoTarajiMobile.png" alt="Taraji Mobile" />
+                </a>
+              </div>
+              <div class="sponsor">
+                <a href="https://taraji-store.com/" target="_blank" aria-label="Sponsor 5">
+                  <img src="/img/taraji store.png" alt="Taraji Store" />
+                </a>
+              </div>
+              
+              </div>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12776.08744758923!2d10.19195904180809!3d36.8179960405198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34622b02f773%3A0x3b1f3f6db2ec6125!2sHassen%20Belkhodja%20park!5e0!3m2!1sen!2stn!4v1735913613611!5m2!1sen!2stn"                 width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2025 Espérance Sportive de Tunis.
+          All rights reserved.
+          by <br> Moudhafer Maatoug | Fawzy Atty | Safouaine Zouaoui
+        </p>
+        <p> </p>
+      </div>
+    </div>
+  </footer>
+
+    <script src="/JS/index.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
 </body>
 </html>

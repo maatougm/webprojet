@@ -1,0 +1,113 @@
+main{
+    padding: 0px 5% 0px 5%;
+}
+.score-page-title {
+    color: #d50000;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.score-subtitle {
+    font-size: 1.3em;
+    color: #5f6368;
+}
+
+.score-intro {
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.score-filter-container {
+    margin-bottom: 30px;
+}
+
+.score-sport-filter {
+    display: flex;
+    justify-content: center; /* Center the sport filter buttons */
+}
+
+.score-sport-filter .score-filter-button {
+    margin-right: 10px;
+}
+
+.score-filter-button {
+    background-color: #d50000;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.score-filter-button:hover {
+    background-color: #b71c1c;
+}
+
+.score-filter-button.active {
+    background-color: #7f0000;
+}
+
+/* Score Cards Styles */
+.score-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.score-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.score-match {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.score-team-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.score-match-score {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #d50000;
+}
+
+.score-match-info {
+    font-size: 0.9em;
+    color: #5f6368;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    main{
+        padding: 0px 10% 0px 10%;
+    }
+    .score-results {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .score-card {
+        padding: 15px;
+    }
+
+    .score-team-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .score-match-score {
+        font-size: 1.6em;
+    }
+}
