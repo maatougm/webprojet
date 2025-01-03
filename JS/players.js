@@ -7,41 +7,41 @@ const playersData = [
         name: "Amanallah Memmiche",
         position: "goalkeeper",
         sport: "football",
-        number: 16,
+        number: 1,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f1.png"
     },
      {
         name: "Bechir Ben Said",
         position: "goalkeeper",
         sport: "football",
-        number: 28,
+        number: 32,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f32.png"
     },
     {
         name: "Mohamed Sedki Debchi",
         position: "goalkeeper",
         sport: "football",
-        number: 40,
+        number: 26,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f26.png"
     },
      {
         name: "Yassine Meriah",
         position: "defender",
         sport: "football",
-        number: 4,
+        number: 5,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f5.png"
     },
       {
         name: "Mohamed Amine Tougai",
         position: "defender",
         sport: "football",
-        number: 5,
+        number: 15,
         nationality: "Algeria",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f15.png"
     },
      {
         name: "Hamza Jelassi ",
@@ -49,87 +49,94 @@ const playersData = [
         sport: "football",
         number: 6,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f6.png"
     },
     {
         name: "aziz Kodhai ",
         position: "defender",
         sport: "football",
-        number: 12,
+        number: 4,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f44.png"
     }, {
         name: "Koussay Smiri  ",
         position: "defender",
         sport: "football",
-        number: 12,
+        number: 3,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f3.png"
     },
     {
         name: "Mohamed Ben Ali ",
         position: "defender",
         sport: "football",
-        number: 20,
+        number: 2,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f2.png"
+    },{
+        name: "Elyas Bouzaienne",
+        position: "defender",
+        sport: "football",
+        number: 12,
+        nationality: "Tunisia",
+        imageUrl: "/players/f12.png"
     },
     {
         name: "Raed Bouchniba",
         position: "defender",
         sport: "football",
-        number: 20,
+        number: 13,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f13.png"
     },
     
     {
         name: "Mohamed Amine Ben Hmida",
         position: "defender",
         sport: "football",
-        number: 27,
+        number: 20,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f20.png"
     },
      {
         name: "Ayman Ben Mohamed ",
         position: "defender",
         sport: "football",
-        number: 31,
+        number: 22,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f22.png"
     },
     {
-        name: "Oussema Bouguerra",
+        name: "Abderamane Konate",
         position: "midfielder",
         sport: "football",
-        number: 29,
-        nationality: "Tunisia",
-        imageUrl: "player2.png"
+        number: 21,
+        nationality: "Ivory Cost",
+        imageUrl: "/players/f21.png"
     },
     {
-        name: "Yousri Hamzaoui",
+        name: "Larry Azouni",
         position: "midfielder",
         sport: "football",
-        number: 32,
+        number: 23,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f23.png"
     },
      {
         name: "Mootez Zaddem",
         position: "midfielder",
         sport: "football",
-        number: 8,
+        number: 19,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f19.png"
     },
     {
-        name: "Ghailene Chaalali",
+        name: "Houssem Tka",
         position: "midfielder",
         sport: "football",
-        number: 15,
+        number: 8,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f8.png"
     },
     {
         name: "Roger Aholou",
@@ -137,106 +144,221 @@ const playersData = [
         sport: "football",
         number: 18,
         nationality: "Togo",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f18.png"
     },
      {
         name: "Zakaria El Ayeb",
         position: "midfielder",
         sport: "football",
-        number: 22,
+        number: 17,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
-    },
-      {
-        name: "Wael Derbali",
-        position: "midfielder",
-        sport: "football",
-        number: 23,
-        nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f17.png"
     },
     {
         name: "Onuche Ogbelu",
         position: "midfielder",
         sport: "football",
-        number: 24,
+        number: 14,
         nationality: "Nigeria",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f14.png"
     },
       {
         name: "Yan Sasse",
         position: "midfielder",
         sport: "football",
-        number: 11,
+        number: 10,
         nationality: "Brazil",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f10.png"
     },
-     {
-        name: "Rodrigue Kossi",
+    {
+        name: "Mohamed Wael Derbali",
         position: "midfielder",
         sport: "football",
-        number: 30,
-        nationality: "Benin",
-        imageUrl: "player2.png"
+        number: 4,
+        nationality: "Tunisia",
+        imageUrl: "/players/f4.png"
     },
      {
-        name: "Mohamed Wael Derbali",
+        name: "Yousef Belaili",
         position: "forward",
         sport: "football",
-        number: 23,
+        number: 11,
+        nationality: "Algeria",
+        imageUrl: "/players/f11.png"
+    },
+     
+    {
+        name: "Kousay Maacha",
+        position: "forward",
+        sport: "football",
+        number: 30,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f30.png"
     },
     {
-        name: "Oussema Bouguerra",
+        name: "Zinedine Kada",
         position: "forward",
         sport: "football",
-        number: 29,
+        number: 28,
         nationality: "Tunisia",
-        imageUrl: "player2.png"
-    },
-    {
-        name: "Boutheina ben dhaou",
-        position: "forward",
-        sport: "football",
-        number: 21,
-        nationality: "Tunisia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f28.png"
     },
     {
         name: "Keba Sowe",
         position: "forward",
         sport: "football",
-        number: 9,
+        number: 27,
         nationality: "Gambia",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f27.png"
+    },
+    {
+        name: "Elias Mokwana",
+        position: "forward",
+        sport: "football",
+        number: 24,
+        nationality: "South Africa",
+        imageUrl: "/players/f24.png"
     },
     {
         name: "Rodrigo Rodrigues",
         position: "forward",
         sport: "football",
-        number: 19,
+        number: 9,
         nationality: "Brazil",
-        imageUrl: "player2.png"
+        imageUrl: "/players/f9.png"
     },
     // Handball Players
     {
-        name: "Player Name",
+        name: "Asil Nemli",
         position: "Goalkeeper",
         sport: "handball",
         number: 1,
         nationality: "Tunisia",
-        imageUrl: "player3.jpg"
+        imageUrl: "/players/h1.png"
+    },
+    {
+        name: "Player Name",
+        position: "Goalkeeper",
+        sport: "handball",
+        number: 16,
+        nationality: "Tunisia",
+        imageUrl: "/players/h16.png"
+    },
+    {
+        name: "Ammar",
+        position: "Goalkeeper",
+        sport: "handball",
+        number: 36,
+        nationality: "Tunisia",
+        imageUrl: "/players/h36.png"
     },
     {
         name: "Player Name",
         position: "Left Wing",
         sport: "handball",
-        number: 2,
-        nationality: "Algeria",
-        imageUrl: "player4.jpg"
+        number: 21,
+        nationality: "Tunisia",
+        imageUrl: "/players/h21.png"
     },
-    // ... add more handball players
+    
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 28,
+        nationality: "Tunisia",
+        imageUrl: "/players/h28.png"
+    },
+    
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 29,
+        nationality: "Tunisia",
+        imageUrl: "/players/h29.png"
+    },
+    
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 10,
+        nationality: "Tunisia",
+        imageUrl: "/players/h10.png"
+    },
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 98,
+        nationality: "Tunisia",
+        imageUrl: "/players/h98.png"
+    },
+    {
+        name: "ghassen toumi",
+        position: "Left Wing",
+        sport: "handball",
+        number: 97,
+        nationality: "Tunisia",
+        imageUrl: "/players/h97.png"
+    },
+    {
+        name: "jasser ben hsine",
+        position: "Left Wing",
+        sport: "handball",
+        number: 77,
+        nationality: "Tunisia",
+        imageUrl: "/players/h77.png"
+    },
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 14,
+        nationality: "Tunisia",
+        imageUrl: "/players/h14.png"
+    },
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 7,
+        nationality: "Tunisia",
+        imageUrl: "/players/h7.png"
+    },
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 15,
+        nationality: "Tunisia",
+        imageUrl: "/players/h15.png"
+    },
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 44,
+        nationality: "Tunisia",
+        imageUrl: "/players/h44.png"
+    },
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 13,
+        nationality: "Tunisia",
+        imageUrl: "/players/h13.png"
+    },
+    {
+        name: "Player Name",
+        position: "Left Wing",
+        sport: "handball",
+        number: 13,
+        nationality: "Tunisia",
+        imageUrl: "/players/hj.png"
+    },
     // Volleyball Players
     {
         name: "Player Name",
