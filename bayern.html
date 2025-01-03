@@ -14,11 +14,16 @@
         </header>
 
         <section class="intro">
-            <p>Espérance Sportive de Tunis, one of Africa's most decorated football clubs, boasts a rich history filled with domestic and continental triumphs. From dominating the Tunisian league to conquering the CAF Champions League, the "Blood and Gold" have consistently demonstrated their prowess on the pitch. This page chronicles the impressive achievements of EST, showcasing the trophies and titles that have cemented their place in football history.</p>
+            <p>Espérance Sportive de Tunis, one of Africa's most decorated clubs, boasts a rich history filled with triumphs in football, handball, and volleyball. From dominating the Tunisian leagues to conquering continental championships, the "Blood and Gold" have consistently demonstrated their prowess across multiple sports. This page chronicles the impressive achievements of EST, showcasing the trophies and titles that have cemented their place in sporting history.</p>
         </section>
 
         <div class="filter-container">
             <button class="filter-button" id="show-all">Show All</button>
+            <div class="sport-filter">
+                <button class="filter-button active" data-sport="football">Football</button>
+                <button class="filter-button" data-sport="handball">Handball</button>
+                <button class="filter-button" data-sport="volleyball">Volleyball</button>
+            </div>
             <div class="year-filter">
                 <label for="start-year">From:</label>
                 <select id="start-year"></select>
@@ -30,7 +35,146 @@
 
         <section class="honours" id="honours-list">
             </section>
+
     </div>
     <script src="sc.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+   
+    <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="footer-widgets">
+              <div class="footer-widget about-widget">
+                <h4 class="widget-title">About Espérance</h4>
+                <p>
+                  Espérance Sportive de Tunis is a beacon of sporting excellence in
+                  Tunisia and across Africa. Founded in 1919, the club has grown
+                  to become a symbol of passion, dedication, and triumph in
+                  multiple sports, including football, handball, and volleyball.
+                </p>
+                <div class="social-links">
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="social-link"
+                    aria-label="Facebook"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="social-link"
+                    aria-label="Twitter"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="social-link"
+                    aria-label="Instagram"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="social-link"
+                    aria-label="YouTube"
+                  >
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+      
+              <div class="footer-widget contact-widget">
+                <h4 class="widget-title">Contact & Location</h4>
+                <ul class="contact-info">
+                  <li>
+                    <i class="fas fa-map-marker-alt icon"></i>
+                    <span class="text"
+                      >Parc Hassen Belkhodja, Tunis, Tunisia</span
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-envelope icon"></i>
+                    <span class="text">
+                      <a href="mailto:contact@est.org.tn">contact@est.org.tn</a>
+                    </span>
+                  </li>
+                  <li>
+                    <i class="fas fa-phone icon"></i>
+                    <span class="text">
+                      <a href="tel:+21671000000">+216 71 000 000</a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="footer-widget sponsors-widget">
+                <h4 class="widget-title">Our Sponsors</h4>
+                <div class="sponsors-slider">
+                  <div class="sponsor">
+                    <a href="#" target="_blank" aria-label="Sponsor 1">
+                      <img src="sponsor-tunisie-telecom.png" alt="Tunisie Telecom" />
+                    </a>
+                  </div>
+                  <div class="sponsor">
+                    <a href="#" target="_blank" aria-label="Sponsor 2">
+                      <img src="sponsor-ooredoo.png" alt="Ooredoo" />
+                    </a>
+                  </div>
+                  <div class="sponsor">
+                    <a href="#" target="_blank" aria-label="Sponsor 3">
+                      <img src="sponsor-delice.png" alt="Delice Danone" />
+                    </a>
+                  </div>
+                  <div class="sponsor">
+                    <a href="#" target="_blank" aria-label="Sponsor 4">
+                      <img src="sponsor-taraji-mobile.png" alt="Taraji Mobile" />
+                    </a>
+                  </div>
+                  <div class="sponsor">
+                    <a href="#" target="_blank" aria-label="Sponsor 5">
+                      <img src="sponsor-taraji-store.png" alt="Taraji Store" />
+                    </a>
+                  </div>
+                  <div class="sponsor">
+                    <a href="#" target="_blank" aria-label="Sponsor 6">
+                      <img src="sponsor-tunisair.png" alt="Tunisair" />
+                    </a>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="map-container">
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12776.08744758923!2d10.19195904180809!3d36.8179960405198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34622b02f773%3A0x3b1f3f6db2ec6125!2sHassen%20Belkhodja%20park!5e0!3m2!1sen!2stn!4v1735913613611!5m2!1sen!2stn"                 width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="copyright">
+              &copy; <span id="current-year"></span> Espérance Sportive de Tunis.
+              All rights reserved.
+            </p>
+            <ul class="footer-links">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+   
 </body>
 </html>
