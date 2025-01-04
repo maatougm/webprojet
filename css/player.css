@@ -38,7 +38,8 @@ body {
 
 .player-sport-filter {
     display: flex;
-    justify-content: center; /* Center the sport filter buttons */
+    justify-content: left; /* Center the sport filter buttons */
+    margin-bottom: 50px;
 }
 
 .player-sport-filter .player-filter-button {
@@ -109,6 +110,60 @@ body {
 
 .player-player-details p {
     margin-bottom: 8px;
+}
+
+#est-add-player-button {
+    background-color: #d50000;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#est-add-player-button:hover {
+    background-color: #b71c1c;
+}
+
+#est-add-player-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#est-add-player-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#est-add-player-form input[type="text"],
+#est-add-player-form input[type="number"],
+#est-add-player-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+#est-add-player-form input[type="submit"] {
+    background-color: #d50000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#est-add-player-form input[type="submit"]:hover {
+    background-color: #b71c1c;
 }
 
 /* Responsive Player Styles */

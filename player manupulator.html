@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espérance Sportive de Tunis - Scores</title>
-    <link rel="stylesheet" href="/css/score.css">
+    <title>Espérance Sportive de Tunis - Players</title>
     <link rel="stylesheet" href="/css/hearderfooter.css">
-    
-  
+    <link rel="stylesheet" href="/css/player.css">
 </head>
 <body>
     <header class="est-header">
         <div class="est-container">
             <div class="est-logo-container">
-                <a href="/html/index.html">
+                <a href="/index.html">
                     <img src="/img/logo.png" alt="Espérance Sportive de Tunis Logo" class="est-logo">
                 </a>
             </div>
             <nav class="est-main-nav">
               <ul class="est-nav-list">
-                <li class="est-nav-item"><a href="/html/palyers.html" class="est-nav-link">players</a></li>
-                <li class="est-nav-item"><a href="/html/honors.html" class="est-nav-link">Honours</a></li>
-                <li class="est-nav-item"><a href="/html/form.html" class="est-nav-link">join club</a></li>
-                <li class="est-nav-item"><a href="/html/score.html" class="est-nav-link">score</a></li>
+                <li class="est-nav-item"><a href="/palyers.html" class="est-nav-link">players</a></li>
+                <li class="est-nav-item"><a href="/honors.html" class="est-nav-link">Honours</a></li>
+                <li class="est-nav-item"><a href="/form.html" class="est-nav-link">join club</a></li>
+                <li class="est-nav-item"><a href="/score.html" class="est-nav-link">score</a></li>
                 <li class="est-nav-item"><a href="https://taraji-store.com/" class="est-nav-link">Shop</a></li>
             </ul>
             </nav>
@@ -33,31 +31,66 @@
             </button>
         </div>
     </header>
-    <main>
-    <div class="score-container">
-        <h1 class="score-page-title">Espérance Sportive de Tunis - Scores</h1>
-        <p class="score-subtitle">Latest Match Results</p>
 
-        <div class="score-filter-container">
-            <div class="score-sport-filter">
-                <button class="score-filter-button active" data-sport="all">All Sports</button>
-                <button class="score-filter-button" data-sport="football">Football</button>
-                <button class="score-filter-button" data-sport="handball">Handball</button>
-                <button class="score-filter-button" data-sport="volleyball">Volleyball</button>
+    <div class="player-container">
+        <h1 class="player-page-title">Espérance Sportive de Tunis - Players</h1>
+        <p class="player-subtitle">Meet the Stars of the Blood and Gold</p>
+
+        <div class="player-filter-container">
+            <div class="player-sport-filter">
+                <button class="player-filter-button active" data-sport="all">All Sports</button>
+                <button class="player-filter-button" data-sport="football">Football</button>
+                <button class="player-filter-button" data-sport="handball">Handball</button>
+                <button class="player-filter-button" data-sport="volleyball">Volleyball</button>
+                <button id="est-add-player-button">Add Player</button>
             </div>
-        </div>
+            
+      
+              
+      
+              <div id="est-add-player-form" style="display: none;">
+                  <form>
+                      <label for="est-player-name">Name:</label>
+                      <input type="text" id="est-player-name" name="est-player-name" required><br><br>
+      
+                      <label for="est-player-number">Number:</label>
+                      <input type="number" id="est-player-number" name="est-player-number" required><br><br>
+      
+                      <label for="est-player-position">Position:</label>
+                      <select id="est-player-position" name="est-player-position">
+                          <option value="goalkeeper">Goalkeeper</option>
+                          <option value="defender">Defender</option>
+                          <option value="midfielder">Midfielder</option>
+                          <option value="forward">Forward</option>
+                          <option value="other">Other</option>
+                      </select><br><br>
+                      
+                      <label for="est-player-sport">Sport:</label>
+                      <select id="est-player-sport" name="est-player-sport">
+                          <option value="football">Football</option>
+                          <option value="handball">Handball</option>
+                          <option value="volleyball">Volleyball</option>
+                      </select><br><br>
+      
+                      <label for="est-player-nationality">Nationality:</label>
+                      <input type="text" id="est-player-nationality" name="est-player-nationality" required><br><br>
+      
+                      <label for="est-player-image">Image URL:</label>
+                      <input type="text" id="est-player-image" name="est-player-image" required><br><br>
+      
+                      <input type="submit" value="Submit">
+                  </form>
+              </div>
+        
 
-        <section class="score-results" id="score-results-list">
+        <section class="player-players" id="player-players-list">
             </section>
     </div>
-</main>
-<script src="/JS/nav.js"></script> 
+    <script src="/JS/nav.js"></script>
+<!-- footer -->
     <footer>
         <div class="footer-top">
         <div class="container">
-            
-                
-
                 <div class="est-social-links">
                     <a href="https://www.facebook.com/EsperanceSportivedeTunis"  target="_blank" class="est-social-link" aria-label="Facebook">
                         <img src="/img/facebook.png" alt="Facebook Icon" class="est-social-icon">
@@ -129,8 +162,8 @@
       </div>
     </div>
   </footer>
-    
-  <script src="/JS/score.js"></script>
+
+    <script src="/JS/players.js"></script>
     
 </body>
 </html>

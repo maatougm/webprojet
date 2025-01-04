@@ -1,6 +1,6 @@
 
 // Players Data (Replace with actual player data and image URLs)
-const playersData = [
+let playersData = [
     // Football Players
    
     {
@@ -437,6 +437,51 @@ sportFilterButtons.forEach(button => {
     });
 });
 
+
+// Add Player Form Functionality
+const addPlayerButton = document.getElementById("est-add-player-button");
+const addPlayerForm = document.getElementById("est-add-player-form");
+const playerForm = addPlayerForm.querySelector("form");
+
+let isFormVisible = false; // Keep track of form visibility
+
+addPlayerButton.addEventListener("click", () => {
+    isFormVisible = !isFormVisible; // Toggle form visibility
+    addPlayerForm.style.display = isFormVisible ? "block" : "none";
+});
+
+playerForm.addEventListener("submit", (event) => {
+    event.preventDefault(); // Prevent form submission
+
+    // Get the form data
+    const name = document.getElementById("est-player-name").value;
+    const number = parseInt(document.getElementById("est-player-number").value); // Convert to number
+    const position = document.getElementById("est-player-position").value;
+    const sport = document.getElementById("est-player-sport").value;
+    const nationality = document.getElementById("est-player-nationality").value;
+    const imageUrl = document.getElementById("est-player-image").value;
+
+    // Create a new player object
+    const newPlayer = {
+        name: name,
+        position: position,
+        sport: sport,
+        number: number,
+        nationality: nationality,
+        imageUrl: imageUrl
+    };
+
+    // Add the new player to the playersData array
+    playersData.push(newPlayer);
+
+    // Update the player display
+    filterPlayers("all"); // Or filter by the relevant sport if needed
+
+    // Clear the form fields and hide the form
+    playerForm.reset();
+    addPlayerForm.style.display = "none";
+    isFormVisible = false;
+});
 // Initial Display
 displayPlayers(playersData); // Show all players initially
 filterPlayers("all"); // Start with all sports selected

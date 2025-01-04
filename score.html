@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esperance Sportive de Tunis</title>
-    <link rel="stylesheet" href="/css/form.css">
+    <title>Espérance Sportive de Tunis - Scores</title>
+    <link rel="stylesheet" href="/css/score.css">
     <link rel="stylesheet" href="/css/hearderfooter.css">
     
-   
+  
 </head>
 <body>
     <header class="est-header">
         <div class="est-container">
             <div class="est-logo-container">
-                <a href="/html/index.html">
+                <a href="/index.html">
                     <img src="/img/logo.png" alt="Espérance Sportive de Tunis Logo" class="est-logo">
                 </a>
             </div>
             <nav class="est-main-nav">
               <ul class="est-nav-list">
-                <li class="est-nav-item"><a href="/html/palyers.html" class="est-nav-link">players</a></li>
-                <li class="est-nav-item"><a href="/html/honors.html" class="est-nav-link">Honours</a></li>
-                <li class="est-nav-item"><a href="/html/form.html" class="est-nav-link">join club</a></li>
-                <li class="est-nav-item"><a href="/html/score.html" class="est-nav-link">score</a></li>
+                <li class="est-nav-item"><a href="/palyers.html" class="est-nav-link">players</a></li>
+                <li class="est-nav-item"><a href="/honors.html" class="est-nav-link">Honours</a></li>
+                <li class="est-nav-item"><a href="/form.html" class="est-nav-link">join club</a></li>
+                <li class="est-nav-item"><a href="/score.html" class="est-nav-link">score</a></li>
                 <li class="est-nav-item"><a href="https://taraji-store.com/" class="est-nav-link">Shop</a></li>
             </ul>
             </nav>
@@ -33,59 +33,25 @@
             </button>
         </div>
     </header>
+    <main>
+    <div class="score-container">
+        <h1 class="score-page-title">Espérance Sportive de Tunis - Scores</h1>
+        <p class="score-subtitle">Latest Match Results</p>
 
+        <div class="score-filter-container">
+            <div class="score-sport-filter">
+                <button class="score-filter-button active" data-sport="all">All Sports</button>
+                <button class="score-filter-button" data-sport="football">Football</button>
+                <button class="score-filter-button" data-sport="handball">Handball</button>
+                <button class="score-filter-button" data-sport="volleyball">Volleyball</button>
+            </div>
+        </div>
 
-    <div>
-        <form action="/submit" method="post" > <label
-
-            for="first_name">Prénom :</label> <input id="first_name" name="first_name"
-  
-            required="" type="text"> <label for="last_name">Nom :</label> <input
-  
-            id="last_name" name="last_name" required="" type="text"> <label for="age">Âge
-            :</label> <input id="age" name="age" required="" type="number"> <label
-  
-            for="gender">Genre :</label>
-          <select id="gender" name="gender" required="">
-            <option value="">--Sélectionner--</option>
-            <option value="male">Homme</option>
-            <option value="female">Femme</option>
-          </select>
-          <label for="position">Position préférée :</label>
-          <select id="position" name="position" required="">
-            <option value="">--Sélectionner--</option>
-            <option value="goalkeeper">Gardien de but</option>
-            <option value="defender">Défenseur</option>
-            <option value="midfielder">Milieu de terrain</option>
-            <option value="forward">Attaquant</option>
-          </select>
-          <label for="experience">Expérience précédente (optionnel) :</label> <textarea
-  
-  id="experience" name="experience" rows="4" placeholder="Décrivez votre expérience"></textarea>
-          <label for="photo">Télécharger votre photo :</label> <input id="photo"
-  
-            name="photo" accept="image/*" required="" type="file"> <label for="contact">Numéro
-            de téléphone :</label> <input id="contact" name="contact" required=""
-  
-            type="tel"> <label for="email">Adresse e-mail :</label> <input id="email"
-  
-            name="email" required="" type="email"> <label for="emergency_contact">Contact
-            d'urgence :</label> <input id="emergency_contact" name="emergency_contact"
-  
-            required="" type="tel"> <label for="address">Adresse :</label> <textarea
-  
-  id="address" name="address" rows="3" placeholder="Entrez votre adresse" required=""></textarea>
-          <label for="height">Taille (en cm) :</label> <input id="height" name="height"
-  
-            required="" type="number"> <label for="weight">Poids (en kg) :</label>
-          <input id="weight" name="weight" required="" type="number"> <label for="payment_receipt">Télécharger
-            le reçu de paiement :</label> <input id="payment_receipt" name="payment_receipt"
-  
-            accept="image/*,application/pdf" required="" type="file"> 
-  
-            <button type="submit">Soumettre l'inscription</button> </form>
+        <section class="score-results" id="score-results-list">
+            </section>
     </div>
-    <script src="/JS/nav.js"></script> 
+</main>
+<script src="/JS/nav.js"></script> 
     <footer>
         <div class="footer-top">
         <div class="container">
@@ -126,8 +92,8 @@
                 </a>
               </div>
               <div class="sponsor">
-                <a href="https://www.tarajimobile.com.tn/" target="_blank" aria-label="Sponsor 4">
-                  <img src="/img/logoTarajiMobile.png" alt="Taraji Mobile" />
+                <a href="https://www.magichotelsandresorts.com//" target="_blank" aria-label="Sponsor 4">
+                  <img src="/img/1200x600wa.png" alt="magic hotels" />
                 </a>
               </div>
               <div class="sponsor">
@@ -163,5 +129,8 @@
       </div>
     </div>
   </footer>
+    
+  <script src="/JS/score.js"></script>
+    
 </body>
 </html>
