@@ -6,14 +6,75 @@ const scoresData = [
     
     {
         sport: "football",
+        date: "2024-12-29",
+        homeTeam: "club sfasien",
+        awayTeam: "Espérance Sportive de Tunis",
+        homeScore: 0,
+        awayScore: 1,
+        homeLogo: "LOGOS/css.png",
+        awayLogo: "LOGOS/est.png"
+    },
+    {
+        sport: "football",
+        date: "2024-12-25",
+        homeTeam: "EGS GAFSA",
+        awayTeam: "Espérance Sportive de Tunis",
+        homeScore: 0,
+        awayScore: 3,
+        homeLogo: "LOGOS/EGSG.png",
+        awayLogo: "LOGOS/EST.png"
+    },
+    {
+        sport: "football",
+        date: "2023-12-22",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "Club Africain",
+        homeScore: 2,
+        awayScore: 2,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/ca.png"
+    },
+    {
+        sport: "football",
+        date: "2023-12-14",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "Pyramids",
+        homeScore: 2,
+        awayScore: 0,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/PRY.png"
+    },
+    {
+        sport: "football",
+        date: "2023-12-6",
+        homeTeam: "Sagrada",
+        awayTeam: "Espérance Sportive de Tunis",
+        homeScore: 0,
+        awayScore: 0,
+        homeLogo: "logos/SAGRADA.png",
+        awayLogo: "LOGOS/EST.png"
+    },
+    {
+        sport: "football",
         date: "2023-12-30",
         homeTeam: "Espérance Sportive de Tunis",
         awayTeam: "Club Africain",
         homeScore: 2,
         awayScore: 1,
-        homeLogo: "/LOGOS/EST.png",
-        awayLogo: "/LOGOS/ca.png"
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/ca.png"
     },
+    {
+        sport: "football",
+        date: "2023-12-30",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "Club Africain",
+        homeScore: 2,
+        awayScore: 1,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/ca.png"
+    },
+
     // ... add more football scores
     // Handball Scores
     {

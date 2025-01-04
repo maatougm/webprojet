@@ -85,6 +85,8 @@ main{
 }
 
 .score-match-info {
+    text-align: center;
+    font-weight: bold;
     font-size: 0.9em;
     color: #5f6368;
 }
