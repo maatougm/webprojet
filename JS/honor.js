@@ -26,35 +26,35 @@ const honoursData = [
     {
         category: "CAF Super Cup",
         years: [1995],
-        img: "placeholder_cafsupercup.jpg",
+        img: "img/sc-logo-light.webp",
         type: "football",
         sport: "football"
     },
     {
         category: "Afro-Asian Club Championship",
         years: [1995],
-        img: "placeholder_afroasian.jpg",
+        img: "img/caf.png",
         type: "football",
         sport: "football"
     },
     {
         category: "Tunisian Ligue Professionnelle 1",
         years: [2022, 2021, 2020, 2019, 2018, 2017, 2014, 2012, 2011, 2010, 2009, 2006, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1994, 1993, 1991, 1989, 1988, 1985, 1982, 1976, 1975, 1970, 1960, 1959, 1942],
-        img: "placeholder_league.jpg",
+        img: "/img/leaguefoot.png",
         type: "football",
         sport: "football"
     },
     {
         category: "Tunisian Cup",
         years: [2016, 2011, 2008, 2007, 2006, 1999, 1997, 1991, 1989, 1986, 1980, 1979, 1964, 1957, 1939],
-        img: "placeholder_cup.jpg",
+        img: "img/coupe tunisie foot.png",
         type: "football",
         sport: "football"
     },
     {
         category: "Tunisian Super Cup",
         years: [2020, 2019, 2001, 1993, 1960],
-        img: "placeholder_supercup.jpg",
+        img: "img/super coupe foot.png",
         type: "football",
         sport: "football"
     },
@@ -62,7 +62,7 @@ const honoursData = [
     {
         category: "Tunisian Handball League",
         years: [2023, 2021, 2019, 2017, 2016, 2014, 2013, 2012, 2010, 2009, 2005, 2004, 1999, 1998, 1997, 1995, 1993, 1992, 1991, 1986, 1985, 1984, 1983, 1982, 1981, 1980, 1979, 1978, 1977, 1976, 1975, 1974, 1973, 1972, 1971, 1970, 1969, 1968, 1967, 1966],
-        img: "placeholder_handball_league.jpg",
+        img: "img/ligue hand.jpg",
         type: "handball",
         sport: "handball"
     },
