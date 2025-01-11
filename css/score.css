@@ -112,4 +112,6 @@ main{
     .score-match-score {
         font-size: 1.6em;
     }
+    .score-filter-button {
+        padding: 12px 13px;}
 }

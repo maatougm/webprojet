@@ -176,4 +176,6 @@ body {
         width: 120px;
         height: 120px;
     }
+    .player-filter-button {
+        padding: 12px 13px;}
 }

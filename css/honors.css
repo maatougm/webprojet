@@ -44,7 +44,7 @@ header {
     flex-wrap: wrap;
 }
 
-.filter-button, #filter-year-button {
+.filter-button, #filter-year-button  ,.show-all-button{
     background-color: #d50000;
     color: white;
     border: none;
@@ -71,7 +71,7 @@ header {
 }
 
 .year-filter select {
-    padding: 8px;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 3px;
     margin-right: 10px;
@@ -89,14 +89,16 @@ header {
     padding-bottom: 25px;
 }
 
+
 .trophy-img {
     width: 150px; /* Adjust as needed */
-    margin-right: 30px;
+    margin-right: 34px;
+
 }
 
 .trophy-img img {
-    max-width: 100%;
-    height: auto;
+    max-width: 130px;
+    /* max-height: px; */
     display: block; /* Remove extra space below image */
 }
 
@@ -145,9 +147,11 @@ header {
 @media (max-width: 768px) {
     .container {
         width: 95%;
-        padding: 5%;
+        margin: 5px;
     }
-
+    body{
+        padding-left: 90%;
+    }
     h1 {
         font-size: 2.5em;
     }
@@ -155,21 +159,30 @@ header {
     .filter-container {
         flex-direction: column;
         align-items: flex-start;
+        padding-left: 9%
     }
 
     .year-filter {
-        margin-top: 15px;
+        margin-top: 15px; 
+        
     }
 
     .trophy-category {
         flex-direction: column; /* Stack items vertically */
         align-items: flex-start; /* Align to the start */
+        padding-left: 9%
     }
 
     .trophy-img {
-        width: 100%; /* Full width on smaller screens */
+        width: 10%; /* Full width on smaller screens */
         margin-right: 0;
         margin-bottom: 20px;
+        padding-left: 30%;
     }
+    .filter-button, #filter-year-button ,.show-all-button{
+        padding: 18px 10px;
+    }
+
+   
 }
 
