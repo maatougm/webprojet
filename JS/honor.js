@@ -62,35 +62,35 @@ const honoursData = [
     {
         category: "Tunisian Handball League",
         years: [2023, 2021, 2019, 2017, 2016, 2014, 2013, 2012, 2010, 2009, 2005, 2004, 1999, 1998, 1997, 1995, 1993, 1992, 1991, 1986, 1985, 1984, 1983, 1982, 1981, 1980, 1979, 1978, 1977, 1976, 1975, 1974, 1973, 1972, 1971, 1970, 1969, 1968, 1967, 1966],
-        img: "img/ligue hand.jpg",
+        img: "img/ligue hand.png",
         type: "handball",
         sport: "handball"
     },
     {
         category: "Tunisian Handball Cup",
         years: [2022, 2021, 2020, 2018, 2013, 2006, 2005, 2002, 2000, 1999, 1998, 1997, 1996, 1995, 1994, 1993, 1992, 1991, 1990, 1989, 1988, 1987, 1986, 1985, 1984, 1983, 1982, 1981, 1980, 1979, 1978, 1977, 1976, 1975, 1974, 1973, 1972, 1971, 1970, 1969, 1968, 1967, 1966, 1965, 1964, 1963, 1962, 1961, 1960, 1959],
-        img: "placeholder_handball_cup.jpg",
+        img: "img/handcoupe.png",
         type: "handball",
         sport: "handball"
     },
     {
         category: "African Handball Champions League",
         years: [2013, 2005, 1998, 1994, 1993],
-        img: "placeholder_handball_champions.jpg",
+        img: "img/handchampoins.png",
         type: "handball",
         sport: "handball"
     },
     {
         category: "African Handball Cup Winners' Cup",
         years: [2015, 2014, 2003],
-        img: "placeholder_handball_cupwinners.jpg",
+        img: "img/handchampoins.png",
         type: "handball",
         sport: "handball"
     },
     {
         category: "African Handball Super Cup",
         years: [2016, 2014, 1995, 1994],
-        img: "placeholder_handball_supercup.jpg",
+        img: "img/handchampoins.png",
         type: "handball",
         sport: "handball"
     },
@@ -105,14 +105,21 @@ const honoursData = [
     {
         category: "Tunisian Volleyball Cup",
         years: [2023, 2021, 2020, 2019, 2018, 2017, 2014, 2010, 2009, 2007, 2006, 2002, 2000, 1999, 1998, 1997, 1996, 1994, 1993, 1992, 1991, 1988, 1980, 1979, 1977, 1976, 1975, 1974, 1973, 1972, 1971, 1970, 1967, 1966, 1965, 1964],
-        img: "placeholder_volleyball_cup.jpg",
+        img: "img/coupevolly.png",
+        type: "volleyball",
+        sport: "volleyball"
+    },
+    {
+        category: "Tunisian Volleyball Super Cup",
+        years: [2023, 2021, 2020, 2019, 2018, 2017, 2014, 2010, 2009, 2007, 2006, 2002, 2000, 1999, 1998, 1997, 1996, 1994, 1993, 1992, 1991, 1988, 1980, 1979, 1977, 1976, 1975, 1974, 1973, 1972, 1971, 1970, 1967, 1966, 1965, 1964],
+        img: "img/coupevolly.png",
         type: "volleyball",
         sport: "volleyball"
     },
     {
         category: "African Volleyball Champions League",
         years: [2021, 2014, 2000, 1998, 1994],
-        img: "placeholder_volleyball_champions.jpg",
+        img: "img/championsvolly.png",
         type: "volleyball",
         sport: "volleyball"
     },

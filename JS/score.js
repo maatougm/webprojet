@@ -1,5 +1,3 @@
-// ... Previous JavaScript (for header, etc.) ...
-
 // Scores Data (Replace with actual score data)
 const scoresData = [
     // Football Scores
