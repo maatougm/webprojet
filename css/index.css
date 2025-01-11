@@ -1,5 +1,10 @@
-/* ... Previous CSS for header, footer, etc. ... */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    
+}
 /* Hero Section */
 .est-hero {
     margin-bottom: 40px;
