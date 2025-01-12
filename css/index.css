@@ -196,6 +196,9 @@ body {
         margin-right: 0;
         margin-bottom: 20px;
     }
+    .world-cup-banner img{
+    max-width: 100%;
+    }
 
     .main-main-section {
         width: 100%;
