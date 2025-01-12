@@ -5,28 +5,28 @@ const honoursData = [
     {
         category: "CAF Champions League",
         years: [2019, 2018, 2011, 1994],
-        img: "./img/caf-cl-logo.webp",
+        img: "img/caf-cl-logo.png",
         type: "football",
         sport: "football"
     },
     {
         category: "Arab Club Champions Cup",
         years: [2017, 2009, 1993],
-        img: "./img/logo-Uafa.png",
+        img: "img/logo-Uafa.png",
         type: "football",
         sport: "football"
     },
     {
         category: "African Cup Winners' Cup",
         years: [1998],
-        img: "placeholder_cupwinners.jpg",
+        img: "img/logocaf.png",
         type: "football",
         sport: "football"
     },
     {
         category: "CAF Super Cup",
         years: [1995],
-        img: "img/sc-logo-light.webp",
+        img: "img/africasupefoot.png",
         type: "football",
         sport: "football"
     },
@@ -40,7 +40,7 @@ const honoursData = [
     {
         category: "Tunisian Ligue Professionnelle 1",
         years: [2022, 2021, 2020, 2019, 2018, 2017, 2014, 2012, 2011, 2010, 2009, 2006, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1994, 1993, 1991, 1989, 1988, 1985, 1982, 1976, 1975, 1970, 1960, 1959, 1942],
-        img: "/img/leaguefoot.png",
+        img: "img/leaguefoot.png",
         type: "football",
         sport: "football"
     },
@@ -98,7 +98,7 @@ const honoursData = [
     {
         category: "Tunisian Volleyball League",
         years: [2022, 2021, 2020, 2019, 2018, 2016, 2015, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1997, 1996, 1995, 1994, 1993, 1980, 1979, 1978, 1976, 1969, 1967, 1966, 1965, 1964],
-        img: "placeholder_volleyball_league.jpg",
+        img: "img/vollyleague.png",
         type: "volleyball",
         sport: "volleyball"
     },
@@ -126,7 +126,7 @@ const honoursData = [
      {
         category: "Arab Volleyball Clubs Championship",
         years: [2019, 2014, 2008, 1998, 1992, 1980],
-        img: "placeholder_volleyball_arab.jpg",
+        img: "img/arabvolly.png",
         type: "volleyball",
         sport: "volleyball"
     }

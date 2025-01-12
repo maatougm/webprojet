@@ -1,5 +1,5 @@
 
-// Players Data (Replace with actual player data and image URLs)
+// Players Data
 const playersData = [
     // Football Players
    
@@ -237,7 +237,7 @@ const playersData = [
         imageUrl: "players/h1.png"
     },
     {
-        name: "Player Name",
+        name: "Mohamed Sfar",
         position: "Goalkeeper",
         sport: "handball",
         number: 16,
@@ -253,7 +253,7 @@ const playersData = [
         imageUrl: "players/h36.png"
     },
     {
-        name: "Player Name",
+        name: "Oussama Boughanmi",
         position: "Left Wing",
         sport: "handball",
         number: 21,
@@ -262,7 +262,7 @@ const playersData = [
     },
     
     {
-        name: "Player Name",
+        name: "Hazem Bacha",
         position: "Left Wing",
         sport: "handball",
         number: 28,
@@ -271,7 +271,7 @@ const playersData = [
     },
     
     {
-        name: "Player Name",
+        name: "Tarak Jallouz",
         position: "Left Wing",
         sport: "handball",
         number: 29,
@@ -280,16 +280,16 @@ const playersData = [
     },
     
     {
-        name: "Player Name",
-        position: "Left Wing",
+        name: "JAFALI Iskander",
+        position: "RIGHT BACK",
         sport: "handball",
         number: 10,
         nationality: "Tunisia",
         imageUrl: "players/h10.png"
     },
     {
-        name: "Player Name",
-        position: "Left Wing",
+        name: "Islem Jbeli",
+        position: "Pivot",
         sport: "handball",
         number: 98,
         nationality: "Tunisia",
@@ -304,7 +304,7 @@ const playersData = [
         imageUrl: "players/h97.png"
     },
     {
-        name: "jasser ben hsine",
+        name: "Jasser Ben Hassine",
         position: "Left Wing",
         sport: "handball",
         number: 77,
@@ -320,7 +320,7 @@ const playersData = [
         imageUrl: "players/h14.png"
     },
     {
-        name: "Player Name",
+        name: "Jilani Khedri",
         position: "Left Wing",
         sport: "handball",
         number: 7,
@@ -328,15 +328,23 @@ const playersData = [
         imageUrl: "players/h7.png"
     },
     {
-        name: "Player Name",
-        position: "Left Wing",
+        name: "Bilel Abdelli",
+        position: "Central",
         sport: "handball",
         number: 15,
         nationality: "Tunisia",
         imageUrl: "players/h15.png"
     },
     {
-        name: "Player Name",
+        name: "Abdelhak Ben Salah",
+        position: "Central",
+        sport: "handball",
+        number: 15,
+        nationality: "Tunisia",
+        imageUrl: "players/h25.png"
+    },
+    {
+        name: "Ahmed Bannour",
         position: "Left Wing",
         sport: "handball",
         number: 44,
@@ -344,7 +352,7 @@ const playersData = [
         imageUrl: "players/h44.png"
     },
     {
-        name: "Player Name",
+        name: "Mohamed Ali Bhar",
         position: "Left Wing",
         sport: "handball",
         number: 13,
@@ -352,7 +360,7 @@ const playersData = [
         imageUrl: "players/h13.png"
     },
     {
-        name: "Player Name",
+        name: "Hsan Jmaii",
         position: "Left Wing",
         sport: "handball",
         number: 13,
@@ -361,22 +369,118 @@ const playersData = [
     },
     // Volleyball Players
     {
-        name: "Player Name",
-        position: "Setter",
-        sport: "volleyball",
-        number: 1,
-        nationality: "Tunisia",
-        imageUrl: "player5.jpg"
-    },
-    {
-        name: "Player Name",
-        position: "Outside Hitter",
+        name: "Ahmed Kadhi",
+        position: "Middle blocker",
         sport: "volleyball",
         number: 2,
-        nationality: "Brazil",
-        imageUrl: "player6.jpg"
+        nationality: "Tunisia",
+        imageUrl: "players/2.png"
     },
-    // ... add more volleyball players
+    {
+        name: "Khaled Ben Slimene",
+        position: "Setter",
+        sport: "volleyball",
+        number: 3,
+        nationality: "Tunisia",
+        imageUrl: "players/3.png"
+    },
+    {
+        name: "Mohamed Ben Youssef",
+        position: " right-side hitter",
+        sport: "volleyball",
+        number: 4,
+        nationality: "Tunisia",
+        imageUrl: "players/4.png"
+    },
+    {
+        name: "Marouane M'rabet",
+        position: "Setter",
+        sport: "volleyball",
+        number: 5,
+        nationality: "Tunisia",
+        imageUrl: "players/5.png"
+    },
+    {
+        name: "Mohamed Ali Ben Othmen",
+        position: "wing spiker",
+        sport: "volleyball",
+        number: 6,
+        nationality: "Tunisia",
+        imageUrl: "players/6.png"
+    },
+    {
+        name: "Hamza Nagga",
+        position: "Wing spiker",
+        sport: "volleyball",
+        number: 7,
+        nationality: "Tunisia",
+        imageUrl: "players/7.png"
+    },
+    {
+        name: "Elyes Bouachir",
+        position: "Outside Hitter",
+        sport: "volleyball",
+        number: 10,
+        nationality: "Tunisia",
+        imageUrl: "players/10.png"
+    },
+
+    {
+        name: "Nabil Miladi",
+        position: "Middle-blocker",
+        sport: "volleyball",
+        number: 11,
+        nationality: "Tunisia",
+        imageUrl: "players/11.png"
+    },
+    {
+        name: "Selim Mbareki",
+        position: "Middle blocker",
+        sport: "volleyball",
+        number: 13,
+        nationality: "Tunisia",
+        imageUrl: "players/13.png"
+    },
+    {
+        name: "Elyes Karamosli",
+        position: "Wing spiker",
+        sport: "volleyball",
+        number: 14,
+        nationality: "Tunisia",
+        imageUrl: "players/14.png"
+    },
+    {
+        name: "Chokri Jouini",
+        position: "Outside Hitter",
+        sport: "volleyball",
+        number: 16,
+        nationality: "Tunisia",
+        imageUrl: "players/16.png"
+    },{
+        name: "Aymen Karoui",
+        position: "Middle-blocker",
+        sport: "volleyball",
+        number: 17,
+        nationality: "Tunisia",
+        imageUrl: "players/17.png"
+    },{
+        name: "Tayeb Korbosli",
+        position: "Libero",
+        sport: "volleyball",
+        number: 19,
+        nationality: "Tunisia",
+        imageUrl: "players/19.png"
+    },
+    {
+        name: "Malek ben mabrouk",
+        position: "Libero",
+        sport: "volleyball",
+        number: 20,
+        nationality: "Tunisia",
+        imageUrl: "players/20.png"
+    },
+
+ 
 ];
 
 // Function to Create and Display Player Cards
