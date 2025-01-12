@@ -24,7 +24,8 @@ body {
 
 .player-subtitle {
     font-size: 1.3em;
-    color: #5f6368;
+    color: #000000;
+    font-weight: bold;
 }
 
 .player-intro {

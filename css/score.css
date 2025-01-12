@@ -16,8 +16,9 @@ main{
 }
 
 .score-subtitle {
-    font-size: 1.3em;
-    color: #5f6368;
+        font-size: 1.3em;
+        color: #000000;
+        font-weight: bold;
 }
 
 .score-intro {

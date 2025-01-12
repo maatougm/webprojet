@@ -122,66 +122,75 @@ fetchStandings();
 // Club presidents data
 const presidentsData = [
     {
+        name: "MOHAMED MELKI",
+        tenure: "1919-1923",
+        imageUrl: "president/1.jpg"
+    },
+    {
         name: "Mohamed Zouaoui",
-        tenure: "1919-1931",
-        imageUrl: "president1.jpg"
+        tenure: "1925-1930",
+        imageUrl: "president/2.jpg"
     },
     {
         name: "Chedly Zouiten",
-        tenure: "1931-1963",
-        imageUrl: "president2.jpg"
+        tenure: "1930-1963",
+        imageUrl: "president/4.jpg"
     },
     {
         name: "Mohamed Ben Smail",
         tenure: "1963-1968",
-        imageUrl: "president3.jpg"
+        imageUrl: "president/5.jpg"
     },
     {
         name: "Ali Zouaoui",
         tenure: "1968-1971",
-        imageUrl: "president4.jpg"
+        imageUrl: "president/6.jpg"
     },
     {
         name: "Hassen Belkhodja",
-        tenure: "1971-1980",
-        imageUrl: "president5.jpg"
+        tenure: "1971-1981",
+        imageUrl: "president/7.jpg"
+    },
+    {
+        name: "NACEUR KNANI",
+        tenure: "1981-1984",
+        imageUrl: "president/8.jpg"
     },
     {
         name: "Abdelhamid Achour",
-        tenure: "1980-1984",
-        imageUrl: "president6.jpg"
+        tenure: "1984-1985",
+        imageUrl: "president/9.jpg"
     },
     {
-        name: "Ridha Meddeb",
-        tenure: "1984-1985",
-        imageUrl: "president7.jpg"
+        name: "Moncef Zouhir",
+        tenure: "1985-1986",
+        imageUrl: "president/10.jpg"
+    },
+    {
+        name: "Mondher Znaïdi",
+        tenure: "1986-1989",
+        imageUrl: "president/11.jpg"
     },
     {
         name: "Hedi Jilani",
         tenure: "1985-1987",
-        imageUrl: "president8.jpg"
+        imageUrl: "president/12.jpg"
     },
-    {
-        name: "Slim Chiboub",
-        tenure: "1987-1989",
-        imageUrl: "president9.jpg"
-    },
-    
     {
         name: "Slim Chiboub",
         tenure: "1989-2004",
-        imageUrl: "president11.jpg"
+        imageUrl: "president/13.jpg"
     },
     
     {
         name: "Aziz Zouhir",
         tenure: "2004-2007",
-        imageUrl: "president13.jpg"
+        imageUrl: "president/14.jpg"
     },
     {
         name: "Hamdi Meddeb",
         tenure: "2007-Present",
-        imageUrl: "/prisident/l.jfif"
+        imageUrl: "president/15.jpg"
     }
 ];
 

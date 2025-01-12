@@ -1,7 +1,26 @@
 // Scores Data (Replace with actual score data)
 const scoresData = [
     // Football Scores
-    
+    {
+        sport: "football",
+        date: "2023-1-12",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "Djoliba",
+        homeScore: 2,
+        awayScore: 0,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/djoliba.png"
+    },
+    {
+        sport: "football",
+        date: "2024-1-5",
+        homeTeam: "Pyramids",
+        awayTeam: "Espérance Sportive de Tunis",
+        homeScore: 2,
+        awayScore: 1,
+        homeLogo: "LOGOS/PRY.png",
+        awayLogo: "LOGOS/est.png"
+    },
     {
         sport: "football",
         date: "2024-12-29",
@@ -54,50 +73,99 @@ const scoresData = [
     },
     {
         sport: "football",
-        date: "2023-12-30",
+        date: "2023-12-1",
         homeTeam: "Espérance Sportive de Tunis",
-        awayTeam: "Club Africain",
+        awayTeam: "JS Omrane",
         homeScore: 2,
-        awayScore: 1,
+        awayScore: 0,
         homeLogo: "LOGOS/EST.png",
-        awayLogo: "LOGOS/ca.png"
+        awayLogo: "LOGOS/jso.png"
     },
-    {
-        sport: "football",
-        date: "2023-12-30",
-        homeTeam: "Espérance Sportive de Tunis",
-        awayTeam: "Club Africain",
-        homeScore: 2,
-        awayScore: 1,
-        homeLogo: "LOGOS/EST.png",
-        awayLogo: "LOGOS/ca.png"
-    },
-
     // ... add more football scores
     // Handball Scores
     {
         sport: "handball",
+        date: "2023-12-14",
+        homeTeam: "Sekiet Zit",
+        awayTeam: "Espérance Sportive de Tunis",
+        homeScore: 18,
+        awayScore: 28,
+        homeLogo: "LOGOS/zit.jpeg",
+        awayLogo: "LOGOS/EST.png"
+    },
+    {
+        sport: "handball",
+        date: "2023-12-11",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "US Tmim",
+        homeScore: 47,
+        awayScore: 32,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/ust.jpeg"
+    },
+    {
+        sport: "handball",
+        date: "2023-11-23",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "Makerem Mahdeya",
+        homeScore: 41,
+        awayScore: 23,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/EMM.png"
+    },
+    {
+        sport: "handball",
         date: "2023-12-29",
         homeTeam: "Espérance Sportive de Tunis",
-        awayTeam: "AS Téboulba",
-        homeScore: 33,
-        awayScore: 28,
-        homeLogo: "est-logo.png",
-        awayLogo: "as-teboulba-logo.png"
+        awayTeam: "Club African",
+        homeScore: 22,
+        awayScore: 27,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/CA.png"
     },
-    // ... add more handball scores
     // Volleyball Scores
     {
         sport: "volleyball",
-        date: "2023-12-28",
+        date: "2023-12-13",
         homeTeam: "Espérance Sportive de Tunis",
-        awayTeam: "CO Kélibia",
+        awayTeam: "CS SFAX",
+        homeScore: 3,
+        awayScore: 0,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/CSS.png"
+    },
+    {
+        sport: "volleyball",
+        date: "2023-11-27",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "SAidiyet Sidi Bousaid",
         homeScore: 3,
         awayScore: 1,
-        homeLogo: "est-logo.png",
-        awayLogo: "co-kelibia-logo.png"
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/SSB.jpeg"
     },
-    // ... add more volleyball scores
+    {
+        sport: "volleyball",
+        date: "2023-11-23",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "AS Marsa",
+        homeScore: 3,
+        awayScore: 0,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/ASM.png"
+    },
+    {
+        sport: "volleyball",
+        date: "2023-06-8",
+        homeTeam: "Espérance Sportive de Tunis",
+        awayTeam: "Etoile Sahel",
+        homeScore: 3,
+        awayScore: 2,
+        homeLogo: "LOGOS/EST.png",
+        awayLogo: "LOGOS/ESS.png"
+    },
+
+    
 ];
 
 // Function to Create and Display Score Cards

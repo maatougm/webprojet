@@ -33,6 +33,7 @@ body {
 }
 .world-cup-banner img{
     border-radius: 10px;
+    max-width: 100%;
 }
 
 
@@ -51,7 +52,12 @@ body {
     transition: opacity 0.3s ease;
     z-index: 10;
 }
-
+h1 {
+    color: #d50000;
+    font-size: 3em;
+    font-weight: 700;
+    
+}
 .est-carousel-prev:hover,
 .est-carousel-next:hover {
     opacity: 1;
@@ -121,7 +127,7 @@ body {
     text-align: left;
     padding: 7px;
     border-bottom: 1px solid #ccc;
-    font-size: 0.9em; /* Adjust font size as needed */
+    font-size: 0.8em; /* Adjust font size as needed */
 }
 
 .main-team-logo-small {
@@ -190,6 +196,7 @@ body {
     .main-content {
         flex-direction: column;
     }
+    
 
     .main-sidebar {
         width: 100%;
